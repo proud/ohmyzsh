@@ -5,9 +5,7 @@ export ZSH=/home/alberto/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell" # default
-# ZSH_THEME="dst" # also with timestamps
-ZSH_THEME="clean"
+ZSH_THEME="proud"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -47,7 +45,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git svn-fast-info vagrant)
+plugins=(git svn-fast-info vagrant vagrant-prompt)
 
 # User configuration
 
