@@ -8,13 +8,20 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%b%{$fg_bold[blue]%})%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_bold[red]%}✗"
 
+# svn theming
+ZSH_THEME_SVN_PROMPT_PREFIX=$ZSH_THEME_GIT_PROMPT_PREFIX
+ZSH_THEME_SVN_PROMPT_SUFFIX=$ZSH_THEME_GIT_PROMPT_SUFFIX
+ZSH_THEME_SVN_PROMPT_DIRTY=$ZSH_THEME_GIT_PROMPT_DIRTY
+ZSH_THEME_SVN_PROMPT_CLEAN=$ZSH_THEME_GIT_PROMPT_CLEAN
+
 # vagrant theming
 ZSH_THEME_VAGRANT_PROMPT_PREFIX="%{$fg_bold[blue]%}["
 ZSH_THEME_VAGRANT_PROMPT_SUFFIX="%{$fg_bold[blue]%}]%{$reset_color%} "
-ZSH_THEME_VAGRANT_PROMPT_RUNNING="%{$fg_no_bold[green]%}✔"
-ZSH_THEME_VAGRANT_PROMPT_POWEROFF="%{$fg_no_bold[red]%}✗"
-ZSH_THEME_VAGRANT_PROMPT_SUSPENDED="%{$fg_no_bold[yellow]%}✗"
-ZSH_THEME_VAGRANT_PROMPT_NOT_CREATED="%{$fg_no_bold[white]%}_"
+ZSH_THEME_VAGRANT_PROMPT_RUNNING="%{$fg_no_bold[green]%}●"
+ZSH_THEME_VAGRANT_PROMPT_POWEROFF="%{$fg_no_bold[red]%}●"
+ZSH_THEME_VAGRANT_PROMPT_SUSPENDED="%{$fg_no_bold[yellow]%}●"
+ZSH_THEME_VAGRANT_PROMPT_ABORTED="%{$fg_no_bold[magenta]%}●"
+ZSH_THEME_VAGRANT_PROMPT_NOT_CREATED="%{$fg_no_bold[white]%}○"
 
 # LS colors, made with http://geoff.greer.fm/lscolors/
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
